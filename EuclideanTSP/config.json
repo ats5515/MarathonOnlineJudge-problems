@@ -1,0 +1,14 @@
+{
+	"name": "Euclidean TSP",
+	"judgetype": "normal",
+	"objective": "minimize",
+	"aggregation": "average",
+	"memorylimit": "1G",
+	"default_score": 1000000,
+	"timelimit": 3,
+	"num_testcases": 10,
+	"tags": [
+		"sample",
+		"tagB"
+	]
+}

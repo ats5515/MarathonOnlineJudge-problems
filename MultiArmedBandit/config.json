@@ -1,0 +1,14 @@
+{
+	"name": "Multi-armed Bandit",
+	"judgetype": "interactive",
+	"objective": "maximize",
+	"aggregation": "average",
+	"memorylimit": "1G",
+	"default_score": 0,
+	"timelimit": 3,
+	"num_testcases": 10,
+	"tags": [
+		"sample",
+		"tagA"
+	]
+}
