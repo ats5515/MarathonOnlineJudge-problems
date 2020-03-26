@@ -7,9 +7,6 @@
 	"default_score": 0,
 	"timelimit": 3,
 	"num_testcases": 10,
-	"tags": [
-		"sample",
-		"tagA"
-	],
+	"tags": [],
 	"status": "testing"
 }
