@@ -1,5 +1,5 @@
 {
-	"name": "Maximal Independent Set",
+	"name": "Maximum Independent Set",
 	"judgetype": "normal",
 	"objective": "maximize",
 	"aggregation": "average",
