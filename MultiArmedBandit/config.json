@@ -6,7 +6,7 @@
 	"memorylimit": "1G",
 	"default_score": 0,
 	"timelimit": 3,
-	"num_testcases": 10,
+	"num_testcases": 50,
 	"tags": [],
 	"status": "testing"
 }

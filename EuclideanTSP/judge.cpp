@@ -30,25 +30,22 @@ int main(int argc, char *argv[]) {
 	//calc score
 	const double INVALID = 1e6;
 	double score = 0;
-	bool valid = true;
 	set<int> st;
 	for (int i = 0; i < N; i++) {
 		if (res[i] < 0 || res[i] >= N) {
-			valid = false;
+			assert(false);
 		}
 		st.insert(res[i]);
 	}
-	if (st.size() != N) valid = false;
-	if (!valid) {
-		score = INVALID;
-	} else {
-		score = 0;
-		for (int i = 0; i < N; i++) {
-			int a = res[i];
-			int b = res[(i + 1) % N];
-			score += hypot(X[a] - X[b], Y[a] - Y[b]);
-		}
+	if (st.size() != N) assert(false);
+	
+	score = 0;
+	for (int i = 0; i < N; i++) {
+		int a = res[i];
+		int b = res[(i + 1) % N];
+		score += hypot(X[a] - X[b], Y[a] - Y[b]);
 	}
+
 	cout << fixed << setprecision(15) << score << endl;
 	return 0;
 }
