@@ -1,6 +1,6 @@
 # MarathonOnlineJudge problems
 
-Marathon Online Judge (https://judge.ats5515.net)の問題ソースコード
+Marathon Online Judge (https://judge.ats5515.net) の問題ソースコード
 
 ## 実行方法
 提出コードの実行コマンドが'./main'であるとします。
@@ -22,7 +22,7 @@ g++ judge.cpp -o judge -std=c++11
 ~~~
 
 ### インタラクティブ
-Windowsの方はWSL等でUnix環境を用意してください。
+Windowsを使う場合はWSL等でUnix環境を用意してください。
 ~~~
 # ジャッジプログラムコンパイル
 g++ judge.cpp -o judge -std=c++11
